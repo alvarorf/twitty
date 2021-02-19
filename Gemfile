@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 gem 'bootsnap'
-gem 'bootstrap'
 gem 'bootstrap-sass'
 gem 'jbuilder', '2.9.1'
 gem 'puma', '3.12.2'
