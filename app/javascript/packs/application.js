@@ -13,4 +13,4 @@ Turbolinks.start()
 ActiveStorage.start()
 import 'bootstrap/dist/js/bootstrap'
 import 'bootstrap/dist/css/bootstrap'
-require("stylesheets/custom.css")
+require("stylesheets/custom.scss")
