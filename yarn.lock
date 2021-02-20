@@ -7786,7 +7786,7 @@
     "postcss-selector-parser" "^6.0.2"
     "postcss-value-parser" "^4.1.0"
 
-"stylelint@^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0", "stylelint@>=10.1.0", "stylelint@>=7.0.0 <14.0.0":
+"stylelint@^13.10.0", "stylelint@^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0", "stylelint@>=10.1.0", "stylelint@>=7.0.0 <14.0.0":
   "integrity" "sha512-eDuLrL0wzPKbl5/TbNGZcbw0lTIGbDEr5W6lCODvb1gAg0ncbgCRt7oU0C2VFDvbrcY0A3MFZOwltwTRmc0XCw=="
   "resolved" "https://registry.npmjs.org/stylelint/-/stylelint-13.10.0.tgz"
   "version" "13.10.0"

@@ -1,5 +1,4 @@
 // @import "bootstrap-sprockets";
-//@import "bootstrap/scss/bootstrap";
 
 $gray-light: #777;
 $gray-medium-light: #eaeaea;
@@ -57,6 +56,10 @@ p {
 }
 
 /* header */
+.nav-link {
+  color: $gray-medium-light;
+}
+
 #logo {
   float: left;
   margin-right: 10px;
@@ -68,7 +71,7 @@ p {
   font-weight: bold;
 
   &:hover {
-    color: white;
+    color: #fff;
     text-decoration: none;
   }
 }
@@ -109,4 +112,14 @@ footer {
   h1 {
     margin-bottom: 10px;
   }
+}
+
+/* miscellaneous */
+.debug_dump {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-top: 45px;
+
+  @include box_sizing;
 }

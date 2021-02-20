@@ -1,12 +1,15 @@
-<header class="navbar navbar-fixed-top navbar-inverse">
+<header class="bg-dark">
 <div class="container">
-  <%= link_to "Twitty", root_path, id: "logo" %>
-  <nav>
-    <ul class="nav navbar-nav navbar-right">
-      <li><%= link_to "Home", root_path %></li>
-      <li><%= link_to "Help", help_path %></li>
-      <li><%= link_to "Log in", '#' %></li>
+
+  <nav class="navbar navbar-expand-lg">
+    <ul class="nav navbar-nav navbar-right w-50 pl-5">
+      <li class='nav-item pl-5'> <%= link_to 'Twitty', root_path, id: "logo", class: 'navbar-brand' %> </li>
+      <li class='nav-item pl-5'> <%= link_to "Home", root_path, class: 'nav-link' %> </li>
+      <li class='nav-item pl-5'> <%= link_to "Log in", '#', class: 'nav-link' %> </li>
+      <li class='nav-item pl-5'> <%= link_to "Help", help_path, class: 'nav-link' %> </li>
     </ul>
   </nav>
 </div>
 </header>
+
+
