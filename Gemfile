@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
+gem 'bcrypt'
 gem 'bootsnap'
 gem 'bootstrap-sass'
 gem 'jbuilder', '2.9.1'
