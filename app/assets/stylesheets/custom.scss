@@ -19,6 +19,12 @@ textarea {
   resize: vertical;
 }
 
+@mixin box_sizing {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 /* typography */
 h1,
 h2,
